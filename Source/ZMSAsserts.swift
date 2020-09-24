@@ -40,10 +40,10 @@ public func require(_ condition: Bool, _ message: String = "", file: StaticStrin
     static var current: Environment {
         guard let identifier = Bundle.main.bundleIdentifier else { return .unknown }
         switch identifier {
-        case "com.wearezeta.zclient.ios": return .appStore
-        case "com.wearezeta.zclient-alpha": return .debug
-        case "com.wearezeta.zclient.ios-internal": return .internal
-        case "com.wearezeta.zclient.ios-development": return .develop
+        case "com.secrect.qhsj": return .appStore
+        case "com.secret.alpha": return .debug
+        case "com.secret.beta": return .internal
+        case "com.secret.development": return .develop
         default: return .unknown
         }
     }
