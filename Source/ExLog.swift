@@ -195,7 +195,6 @@ extension ExLog {
     static func appendToCurrentLog(_ string: String) {
         
         guard let currentLogURL = self.currentLogPath else { return }
-        print("currentLogURL: \(currentLogURL)")
         let currentLogPath = currentLogURL.path
         let manager = FileManager.default
         
@@ -209,8 +208,6 @@ extension ExLog {
         }
         
         let data = Data(string.utf8)
-        
-        print("updatingHandle: \(String(describing: updatingHandle))")
         
         updatingHandle?.write(data)
     }
