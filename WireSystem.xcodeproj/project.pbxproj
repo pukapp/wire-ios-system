@@ -44,6 +44,8 @@
 		5E8AA202223BC8CE005F5E07 /* NSFileHandle+SafeOperations.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E8AA200223BC8CE005F5E07 /* NSFileHandle+SafeOperations.m */; };
 		8701221620F64171001E6342 /* Cache.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8701221520F64171001E6342 /* Cache.swift */; };
 		8701221920F641BE001E6342 /* CacheTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8701221720F641A4001E6342 /* CacheTests.swift */; };
+		A09BE77F252A15C200B559D3 /* ExLog.swift in Sources */ = {isa = PBXBuildFile; fileRef = A09BE77E252A15C200B559D3 /* ExLog.swift */; };
+		A09BE781252A19B700B559D3 /* Exlog+Recording.swift in Sources */ = {isa = PBXBuildFile; fileRef = A09BE780252A19B700B559D3 /* Exlog+Recording.swift */; };
 		D59F3A1B206A448F0023474F /* DispatchQueue+ZMSDispatchGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = D59F3A1A206A448F0023474F /* DispatchQueue+ZMSDispatchGroup.swift */; };
 		D59F3A1D206A47E80023474F /* DispatchQueueHelperTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D59F3A1C206A47E80023474F /* DispatchQueueHelperTests.swift */; };
 		F1670FAE22A7C5F500BC6811 /* SanitizedString.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1670FAD22A7C5F500BC6811 /* SanitizedString.swift */; };
@@ -112,6 +114,8 @@
 		5E8AA200223BC8CE005F5E07 /* NSFileHandle+SafeOperations.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSFileHandle+SafeOperations.m"; sourceTree = "<group>"; };
 		8701221520F64171001E6342 /* Cache.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Cache.swift; sourceTree = "<group>"; };
 		8701221720F641A4001E6342 /* CacheTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CacheTests.swift; sourceTree = "<group>"; };
+		A09BE77E252A15C200B559D3 /* ExLog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExLog.swift; sourceTree = "<group>"; };
+		A09BE780252A19B700B559D3 /* Exlog+Recording.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Exlog+Recording.swift"; sourceTree = "<group>"; };
 		D59F3A1A206A448F0023474F /* DispatchQueue+ZMSDispatchGroup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "DispatchQueue+ZMSDispatchGroup.swift"; sourceTree = "<group>"; };
 		D59F3A1C206A47E80023474F /* DispatchQueueHelperTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DispatchQueueHelperTests.swift; sourceTree = "<group>"; };
 		F1670FAD22A7C5F500BC6811 /* SanitizedString.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SanitizedString.swift; sourceTree = "<group>"; };
@@ -190,8 +194,10 @@
 				F1670FAD22A7C5F500BC6811 /* SanitizedString.swift */,
 				F19E554422AA8748005C792D /* SafeForLoggingStringConvertible.swift */,
 				096A3A1E1B67CEF700565001 /* ZMSLog.swift */,
+				A09BE77E252A15C200B559D3 /* ExLog.swift */,
 				54DB81621DBF66CF00AF495D /* ZMSLog+Levels.swift */,
 				54D573691DBFBAFA00D6C2C4 /* ZMSLog+Recording.swift */,
+				A09BE780252A19B700B559D3 /* Exlog+Recording.swift */,
 				D59F3A1A206A448F0023474F /* DispatchQueue+ZMSDispatchGroup.swift */,
 				54F249C61BB9242900040600 /* ZMSDispatchGroup.h */,
 				54F249C71BB9242900040600 /* ZMSDispatchGroup.m */,
@@ -387,6 +393,7 @@
 				544CFC511B70B933007AA694 /* ZMSLog.swift in Sources */,
 				8701221620F64171001E6342 /* Cache.swift in Sources */,
 				54180BD91F459DCF0020D2BD /* MemoryReferenceDebugger.swift in Sources */,
+				A09BE781252A19B700B559D3 /* Exlog+Recording.swift in Sources */,
 				54F249C91BB9242900040600 /* ZMSDispatchGroup.m in Sources */,
 				54C0CC411C9C7635000A9286 /* ZMSAsserts.m in Sources */,
 				54F9BC4E1C48F55900BC09DB /* ZMSTestDetection.m in Sources */,
@@ -399,6 +406,7 @@
 				54FF9F121C48F67300B29ACE /* ZMSTimePoint.m in Sources */,
 				54D5736A1DBFBAFA00D6C2C4 /* ZMSLog+Recording.swift in Sources */,
 				5442AB7F1CA29CC000BC099C /* ZMSAsserts.swift in Sources */,
+				A09BE77F252A15C200B559D3 /* ExLog.swift in Sources */,
 				D59F3A1B206A448F0023474F /* DispatchQueue+ZMSDispatchGroup.swift in Sources */,
 				5E8AA202223BC8CE005F5E07 /* NSFileHandle+SafeOperations.m in Sources */,
 			);
